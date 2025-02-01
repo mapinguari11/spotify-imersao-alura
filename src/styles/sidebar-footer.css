@@ -165,10 +165,6 @@ body {
     border-radius: 20px;
 }
 
-main {
-    height: 87vh;
-}
-
 .banner-bottom {
     position: absolute;
     display: flex;
