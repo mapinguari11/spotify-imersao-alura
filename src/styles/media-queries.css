@@ -1,5 +1,187 @@
+@media screen and (max-width: 1385px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 1015px) {
     .offer__list-item {
         grid-template-columns: 1fr 1fr;
-    }    
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .sidebar {
+        box-sizing: border-box;
+        width: 25%;
+        padding: 0;
+        justify-content: left;
+    }
+    
+    .sidebar__navigation, .library, .section-playlist {
+        padding-left: 5px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .sidebar__navigation .logo {
+        padding-left: 5px
+    }
+
+    .sidebar nav ul {
+        padding: 0 10px 5px 10px;
+    }
+
+    .sidebar nav ul li {
+        padding: 5px 0;
+    }
+
+    .sidebar nav ul li span {
+        font-size: 12px;
+    }
+    
+    .library {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .library__content {
+        justify-content: left;
+        align-items: center;
+        max-width: 100%;
+        padding-left: 5px;
+    }
+
+    .library .library__button {
+        padding: 10px 3px;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .library .library__button span {
+        font-size: 12px;
+
+    }
+
+    .library .library__button .fa-book {
+        margin-right: 5px;
+        padding-right: 4px;
+    }
+
+    .library .library__content .fa-plus {
+        margin: 12px 0px;
+    }
+
+    .section-playlist {
+        gap: 10px;
+        font-size: 10px;
+        border-radius: 8px;
+        margin: 4px 0;
+        padding: 0;
+        word-wrap: break-word;
+        width: 100%;
+    }
+
+    .section-playlist__content {
+        word-wrap: break-word;
+        max-width: 100%;
+        padding: 10px 0 0 8px;
+    }
+
+    .section-playlist__content .text {
+        font-size: 10px;
+    }
+
+    .section-playlist__content .section-playlist__button {
+        max-width: 100%;
+    }
+
+    .languages .languages__button {
+        max-width: 100%;
+        font-size: 10px;
+        word-wrap: break-word;
+        margin: 3px;
+    }
+
+    .banner-bottom {
+        width: 100%;
+    }
+
+    .main-container {
+         margin: 0 5% 0 28%;
+    }
+
+    .header__navigation {
+        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 3px;
+    }
+
+    .arrow-left, .arrow-right {
+        width: 24px;
+        height: auto;
+    }
+
+    .header__login {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header__login .login, .header__login .subscribe {
+        font-size: 12px;
+        height: auto;
+        padding: 5px 0;
+    }
+
+    .header__search {
+        max-width: 100%;
+        font-size: 12px;
+        height: auto;
+    }
+
+    .playlist-container {
+        height: 100%;
+    }
+
+    
+    .playlist #greeting {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    
+    .playlist .session {
+        font-size: 18px;
+    }
+
+    .cards {
+        width: 110px;
+        height: 100px;
+    }
+
+    .cards span {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .offer__list-item img {
+        height: auto;
+        width: 53px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        min-width: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .offer__list-item {
+        grid-template-columns: 1fr;
+    }       
 }

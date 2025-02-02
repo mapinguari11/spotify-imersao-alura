@@ -65,6 +65,7 @@ body {
 
 .library .library__button {
     display: flex;
+    gap: 5px;
     margin-right: 10px;
     color: var(--sidebar-text-color);
     background-color: transparent;
@@ -169,13 +170,20 @@ body {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     background-color: transparent;
     background-image: linear-gradient(to right, rgb(138, 31, 180) , rgb(52, 83, 239));
     color: var(--main-text-color);
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 10px 0 10px 20px;
     box-sizing: border-box;
+}
+
+.banner-bottom .banner-bottom__promo {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    padding: 10px 20px;
 }
 
 .banner-bottom__text {
@@ -199,4 +207,21 @@ body {
     text-transform: none;
     color: var(--bg-color);
     font-weight: 700;
+}
+
+.banner-bottom .close {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 25%;
+    border: 1px solid transparent;
+}
+
+.banner-bottom .close:hover {
+    border: 1px solid white;
+}
+
+.banner-bottom-hidden {
+    display: none;
 }
